@@ -4,12 +4,8 @@ require('dotenv').config()
 const pool = new Pool({
     user: process.env.USER,
     password: process.env.PASSWORD,
-    host: process.env.HOST,
+    connectionString: process.env.POSTGRES_URL + "?sslmode=require",
     port: process.env.DBPORT,
     database: "todoapp_nuiy_ln4s"
 });
-pool.connect((err) => {
-    if (err) throw err 
-    console.log(err);
-})
 module.exports = pool

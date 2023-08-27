@@ -8,4 +8,8 @@ const pool = new Pool({
     port: process.env.DBPORT,
     database: "todoapp_nuiy_ln4s"
 });
+pool.connect((err) => {
+    if (err) throw err 
+    console.log(err);
+})
 module.exports = pool

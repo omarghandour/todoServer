@@ -7,6 +7,6 @@ const pool = new Pool({
     host=process.env.POSTGRES_HOST
     connectionString: process.env.POSTGRES_URL + "?sslmode=require",
     port: process.env.DBPORT,
-    database: "todoapp_nuiy_ln4s"
+    database: "verceldb"
 });
 module.exports = pool

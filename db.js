@@ -6,6 +6,6 @@ const pool = new Pool({
     password: process.env.PASSWORD,
     host: process.env.HOST,
     port: process.env.DBPORT,
-    database: "verceldb"
+    database: "todoapp_nuiy"
 });
 module.exports = pool

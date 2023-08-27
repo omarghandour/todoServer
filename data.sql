@@ -1,4 +1,4 @@
-CREATE DATABASE verceldb;
+CREATE DATABASE todoapp_nuiy;
 
 CREATE TABLE
     todos (

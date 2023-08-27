@@ -16,7 +16,7 @@ app.get('/todos/:userEmail', async (req, res) => {
 
         res.json(todos.rows)
     } catch (err) {
-        console.log(error)
+        console.log(err)
     }
 })
 // Create a new todo 

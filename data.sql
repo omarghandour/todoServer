@@ -1,4 +1,4 @@
-CREATE DATABASE todoapp_nuiy;
+CREATE DATABASE todoapp_nuiy_ln4s;
 
 CREATE TABLE
     todos (
